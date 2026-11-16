@@ -1,0 +1,2029 @@
+{
+    "face": {
+        "id": "Face",
+        "type": "object",
+        "desc": "Face",
+        "properties": {
+            "title": {
+                "id": "Face.title",
+                "type": "object",
+                "desc": "Navigation title",
+                "properties": {
+                    "text": {
+                        "id": "Face.title.text",
+                        "type": "text",
+                        "desc": "Title",
+                        "value": "Scan Face"
+                    }
+                }
+            },
+            "copy": {
+                "id": "Face.copy",
+                "type": "object",
+                "desc": "Face copy",
+                "properties": {
+                    "borderColor": {
+                        "id": "Face.copy.borderColor",
+                        "type": "color",
+                        "desc": "zface progress backgroud color",
+                        "value": {
+                            "hex": "#4a90e2",
+                            "rgba": {
+                                "r": 74,
+                                "g": 144,
+                                "b": 226,
+                                "a": 0.3
+                            }
+                        }
+                    },
+                    "borderStartColor": {
+                        "id": "Face.copy.borderStartColor",
+                        "type": "color",
+                        "desc": "zface progress start color",
+                        "value": {
+                            "hex": "#4a90e2",
+                            "rgba": {
+                                "r": 74,
+                                "g": 144,
+                                "b": 226,
+                                "a": 1
+                            }
+                        }
+                    },
+                    "borderEndColor": {
+                        "id": "Face.copy.borderEndColor",
+                        "type": "color",
+                        "desc": "zface progress end color",
+                        "value": {
+                            "hex": "#4a90e2",
+                            "rgba": {
+                                "r": 74,
+                                "g": 144,
+                                "b": 226,
+                                "a": 0.5
+                            }
+                        }
+                    },
+                    "color": {
+                        "id": "Face.copy.color",
+                        "type": "color",
+                        "desc": "face tip color",
+                        "value": {
+                            "hex": "#4a90e2",
+                            "rgba": {
+                                "r": 74,
+                                "g": 144,
+                                "b": 226,
+                                "a": 1
+                            }
+                        }
+                    },
+                    "text": {
+                        "id": "Face.copy.text",
+                        "type": "select",
+                        "desc": "face tip text",
+                        "value": "Face cannot be seen clearly",
+                        "name": "photo unclear",
+                        "items": [
+                            {
+                                "type": "text",
+                                "name": "no face detected",
+                                "value": "No face detected"
+                            },
+                            {
+                                "type": "text",
+                                "name": "move further",
+                                "value": "Move further"
+                            },
+                            {
+                                "type": "text",
+                                "name": "move closer",
+                                "value": "Move closer"
+                            },
+                            {
+                                "type": "text",
+                                "name": "too dark",
+                                "value": "The place is too dark"
+                            },
+                            {
+                                "type": "text",
+                                "name": "open your eyes",
+                                "value": "Open your eyes"
+                            },
+                            {
+                                "type": "text",
+                                "name": "please blink",
+                                "value": "Please blink"
+                            },
+                            {
+                                "type": "text",
+                                "name": "stay still",
+                                "value": "Stay still"
+                            },
+                            {
+                                "type": "text",
+                                "name": "photo unclear",
+                                "value": "Face cannot be seen clearly"
+                            },
+                            {
+                                "type": "text",
+                                "name": "processing",
+                                "value": "Processing...",
+                                "noEditor": true
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "garfield": {
+        "id": "Garfield",
+        "type": "object",
+        "desc": "Garfield",
+        "properties": {
+            "layer": {
+                "id": "Garfield.layer",
+                "type": "object",
+                "desc": "Scan layer",
+                "properties": {
+                    "iconColor": {
+                        "id": "Garfield.layer.iconColor",
+                        "type": "color",
+                        "desc": "Icon default color",
+                        "value": {
+                            "hex": "#ffffff",
+                            "rgba": {
+                                "r": 255,
+                                "g": 255,
+                                "b": 255,
+                                "a": 1
+                            }
+                        }
+                    },
+                    "background": {
+                        "id": "Garfield.layer.background",
+                        "type": "color",
+                        "desc": "Pop up background color",
+                        "value": {
+                            "hex": "#e8e9ec",
+                            "rgba": {
+                                "r": 232,
+                                "g": 233,
+                                "b": 236,
+                                "a": 1
+                            }
+                        }
+                    },
+                    "loadingColor": {
+                        "id": "Garfield.layer.loadingColor",
+                        "type": "color",
+                        "desc": "Icon animation color",
+                        "value": {
+                            "hex": "#108ee9",
+                            "rgba": {
+                                "r": 16,
+                                "g": 142,
+                                "b": 233,
+                                "a": 1
+                            }
+                        }
+                    },
+                    "textColor": {
+                        "id": "Garfield.layer.textColor",
+                        "type": "color",
+                        "desc": "Text color",
+                        "value": {
+                            "hex": "#000000",
+                            "rgba": {
+                                "r": 0,
+                                "g": 0,
+                                "b": 0,
+                                "a": 1
+                            }
+                        }
+                    },
+                    "defaultText": {
+                        "id": "Garfield.layer.defaultText",
+                        "type": "text",
+                        "desc": "Default text",
+                        "value": "Face scan"
+                    },
+                    "loadingText": {
+                        "id": "Garfield.layer.loadingText",
+                        "type": "text",
+                        "desc": "Animation text",
+                        "value": "Lift your phone"
+                    }
+                }
+            }
+        }
+    },
+    "langs": {
+        "face": {
+            "default": [
+                {
+                    "key": "Face.title",
+                    "name": "Navigation title",
+                    "items": [
+                        {
+                            "id": "Face.title.text",
+                            "type": "text",
+                            "desc": "Title",
+                            "value": "Scan Face"
+                        }
+                    ]
+                },
+                {
+                    "key": "Face.copy",
+                    "name": "Face copy",
+                    "items": [
+                        {
+                            "type": "text",
+                            "name": "no face detected",
+                            "value": "No face detected"
+                        },
+                        {
+                            "type": "text",
+                            "name": "move further",
+                            "value": "Move further"
+                        },
+                        {
+                            "type": "text",
+                            "name": "move closer",
+                            "value": "Move closer"
+                        },
+                        {
+                            "type": "text",
+                            "name": "too dark",
+                            "value": "The place is too dark"
+                        },
+                        {
+                            "type": "text",
+                            "name": "open your eyes",
+                            "value": "Open your eyes"
+                        },
+                        {
+                            "type": "text",
+                            "name": "please blink",
+                            "value": "Please blink"
+                        },
+                        {
+                            "type": "text",
+                            "name": "stay still",
+                            "value": "Stay still"
+                        },
+                        {
+                            "type": "text",
+                            "name": "photo unclear",
+                            "value": "Face cannot be seen clearly"
+                        },
+                        {
+                            "type": "text",
+                            "name": "processing",
+                            "value": "Processing...",
+                            "noEditor": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "doc": {
+            "default": [
+                {
+                    "key": "title.text",
+                    "name": "Title",
+                    "items": [
+                        {
+                            "id": "title.text",
+                            "type": "text",
+                            "desc": "Title",
+                            "value": "Take ID Picture"
+                        }
+                    ]
+                },
+                {
+                    "key": "Doc.operation",
+                    "name": "Passport(full) Operation interface",
+                    "docTypeId": "00000001003_1",
+                    "frameType": "standard_frame",
+                    "items": [
+                        {
+                            "id": "Doc.operation.buttonCancel",
+                            "type": "text",
+                            "desc": "Retake text",
+                            "value": "Retake"
+                        },
+                        {
+                            "id": "Doc.operation.buttonSubmit",
+                            "type": "text",
+                            "desc": "Submit text",
+                            "value": "Submit"
+                        }
+                    ]
+                },
+                {
+                    "key": "Doc.copy",
+                    "name": "Passport(full) Copy",
+                    "docTypeId": "00000001003_1",
+                    "frameType": "standard_frame",
+                    "items": [
+                        {
+                            "id": "Doc.copy.tips",
+                            "type": "text",
+                            "desc": "Tips of taking photo",
+                            "value": "Front of ID"
+                        },
+                        {
+                            "id": "Doc.copy.step1",
+                            "type": "text",
+                            "desc": "Position of ID",
+                            "value": "Place your ID within the frame and take a picture"
+                        },
+                        {
+                            "id": "Doc.copy.step2",
+                            "type": "text",
+                            "desc": "Tips of confirming photo",
+                            "value": "Make sure the picture has no glare and not blurry"
+                        },
+                        {
+                            "id": "Doc.copy.step3",
+                            "type": "text",
+                            "desc": "Processing copy",
+                            "value": "Processing..."
+                        },
+                        {
+                            "id": "Doc.copy.step4",
+                            "type": "text",
+                            "desc": "Complete copy",
+                            "value": "Submission Completed!"
+                        }
+                    ]
+                }
+            ]
+        },
+        "popup": {
+            "default": [
+                {
+                    "key": "Popup.systemError",
+                    "name": "system error",
+                    "items": [
+                        {
+                            "id": "Popup.systemError.title",
+                            "type": "text",
+                            "desc": "Title",
+                            "value": "System Error"
+                        },
+                        {
+                            "id": "Popup.systemError.desc",
+                            "type": "text",
+                            "desc": "Description",
+                            "value": "Please try again later"
+                        },
+                        {
+                            "id": "Popup.systemError.submit",
+                            "type": "text",
+                            "desc": "Submit button(right)",
+                            "value": "Got it"
+                        }
+                    ]
+                },
+                {
+                    "key": "Popup.networkError",
+                    "name": "network error",
+                    "items": [
+                        {
+                            "id": "Popup.networkError.title",
+                            "type": "text",
+                            "desc": "Title",
+                            "value": "No Internet Connection"
+                        },
+                        {
+                            "id": "Popup.networkError.desc",
+                            "type": "text",
+                            "desc": "Description",
+                            "value": "Please check your internet connection and try again"
+                        },
+                        {
+                            "id": "Popup.networkError.cancel",
+                            "type": "text",
+                            "desc": "Cancel button(left)",
+                            "value": "Close"
+                        },
+                        {
+                            "id": "Popup.networkError.submit",
+                            "type": "text",
+                            "desc": "Submit button(right)",
+                            "value": "Retry"
+                        }
+                    ]
+                },
+                {
+                    "key": "Popup.zdocUserCancel",
+                    "name": "zdoc user cancel",
+                    "items": [
+                        {
+                            "id": "Popup.zdocUserCancel.title",
+                            "type": "text",
+                            "desc": "Title",
+                            "value": "Are you sure want to quit?"
+                        },
+                        {
+                            "id": "Popup.zdocUserCancel.desc",
+                            "type": "text",
+                            "desc": "Description",
+                            "value": "You are almost done, stay to complete?"
+                        },
+                        {
+                            "id": "Popup.zdocUserCancel.cancel",
+                            "type": "text",
+                            "desc": "Cancel button(left)",
+                            "value": "Quit"
+                        },
+                        {
+                            "id": "Popup.zdocUserCancel.submit",
+                            "type": "text",
+                            "desc": "Submit button(right)",
+                            "value": "Stay"
+                        }
+                    ]
+                },
+                {
+                    "key": "Popup.zdocNoDocument",
+                    "name": "zdoc no document",
+                    "items": [
+                        {
+                            "id": "Popup.zdocNoDocument.title",
+                            "type": "text",
+                            "desc": "Title",
+                            "value": "Invalid ID type"
+                        },
+                        {
+                            "id": "Popup.zdocNoDocument.desc",
+                            "type": "text",
+                            "desc": "Description",
+                            "value": "Make sure you are using your specified type of ID"
+                        },
+                        {
+                            "id": "Popup.zdocNoDocument.cancel",
+                            "type": "text",
+                            "desc": "Cancel button(left)",
+                            "value": "Quit"
+                        },
+                        {
+                            "id": "Popup.zdocNoDocument.submit",
+                            "type": "text",
+                            "desc": "Submit button(right)",
+                            "value": "Retry"
+                        }
+                    ]
+                },
+                {
+                    "key": "Popup.zdocImperfect",
+                    "name": "zdoc imperfect",
+                    "items": [
+                        {
+                            "id": "Popup.zdocImperfect.title",
+                            "type": "text",
+                            "desc": "Title",
+                            "value": "InComplete Id"
+                        },
+                        {
+                            "id": "Popup.zdocImperfect.desc",
+                            "type": "text",
+                            "desc": "Description",
+                            "value": "Please make sure ID is clear and readable."
+                        },
+                        {
+                            "id": "Popup.zdocImperfect.cancel",
+                            "type": "text",
+                            "desc": "Cancel button(left)",
+                            "value": "Quit"
+                        },
+                        {
+                            "id": "Popup.zdocImperfect.submit",
+                            "type": "text",
+                            "desc": "Submit button(right)",
+                            "value": "Retry"
+                        }
+                    ]
+                },
+                {
+                    "key": "Popup.zdocBlur",
+                    "name": "zdoc blur",
+                    "items": [
+                        {
+                            "id": "Popup.zdocBlur.title",
+                            "type": "text",
+                            "desc": "Title",
+                            "value": "Unclear Photo ID"
+                        },
+                        {
+                            "id": "Popup.zdocBlur.desc",
+                            "type": "text",
+                            "desc": "Description",
+                            "value": "Please make sure your photo ID is clear and readable."
+                        },
+                        {
+                            "id": "Popup.zdocBlur.cancel",
+                            "type": "text",
+                            "desc": "Cancel button(left)",
+                            "value": "Quit"
+                        },
+                        {
+                            "id": "Popup.zdocBlur.submit",
+                            "type": "text",
+                            "desc": "Submit button(right)",
+                            "value": "Retry"
+                        }
+                    ]
+                },
+                {
+                    "key": "Popup.zdocExposure",
+                    "name": "zdoc exposure",
+                    "items": [
+                        {
+                            "id": "Popup.zdocExposure.title",
+                            "type": "text",
+                            "desc": "Title",
+                            "value": "Unclear Photo ID"
+                        },
+                        {
+                            "id": "Popup.zdocExposure.desc",
+                            "type": "text",
+                            "desc": "Description",
+                            "value": "Please make sure your photo ID is clear and readable."
+                        },
+                        {
+                            "id": "Popup.zdocExposure.cancel",
+                            "type": "text",
+                            "desc": "Cancel button(left)",
+                            "value": "Quit"
+                        },
+                        {
+                            "id": "Popup.zdocExposure.submit",
+                            "type": "text",
+                            "desc": "Submit button(right)",
+                            "value": "Retry"
+                        }
+                    ]
+                },
+                {
+                    "key": "Popup.zdocNoface",
+                    "name": "zdoc noface",
+                    "items": [
+                        {
+                            "id": "Popup.zdocNoface.title",
+                            "type": "text",
+                            "desc": "Title",
+                            "value": "Face Not Detected"
+                        },
+                        {
+                            "id": "Popup.zdocNoface.desc",
+                            "type": "text",
+                            "desc": "Description",
+                            "value": "Please make sure your photo ID is clear and readable."
+                        },
+                        {
+                            "id": "Popup.zdocNoface.cancel",
+                            "type": "text",
+                            "desc": "Cancel button(left)",
+                            "value": "Quit"
+                        },
+                        {
+                            "id": "Popup.zdocNoface.submit",
+                            "type": "text",
+                            "desc": "Submit button(right)",
+                            "value": "Retry"
+                        }
+                    ]
+                },
+                {
+                    "key": "Popup.zdocUnknow",
+                    "name": "zdoc unknow",
+                    "items": [
+                        {
+                            "id": "Popup.zdocUnknow.title",
+                            "type": "text",
+                            "desc": "Title",
+                            "value": "Unclear Photo ID"
+                        },
+                        {
+                            "id": "Popup.zdocUnknow.desc",
+                            "type": "text",
+                            "desc": "Description",
+                            "value": "Please make sure your ID is valid."
+                        },
+                        {
+                            "id": "Popup.zdocUnknow.cancel",
+                            "type": "text",
+                            "desc": "Cancel button(left)",
+                            "value": "Quit"
+                        },
+                        {
+                            "id": "Popup.zdocUnknow.submit",
+                            "type": "text",
+                            "desc": "Submit button(right)",
+                            "value": "Retry"
+                        }
+                    ]
+                },
+                {
+                    "key": "Popup.zdocCameraPermission",
+                    "name": "zdoc camera permission",
+                    "items": [
+                        {
+                            "id": "Popup.zdocCameraPermission.title",
+                            "type": "text",
+                            "desc": "Title",
+                            "value": "\"$AppName\" Would Like To Access Your Camera"
+                        },
+                        {
+                            "id": "Popup.zdocCameraPermission.desc",
+                            "type": "text",
+                            "desc": "Description",
+                            "value": "This allows you to take photos in the app."
+                        },
+                        {
+                            "id": "Popup.zdocCameraPermission.cancel",
+                            "type": "text",
+                            "desc": "Cancel button(left)",
+                            "value": "Don't allow"
+                        },
+                        {
+                            "id": "Popup.zdocCameraPermission.submit",
+                            "type": "text",
+                            "desc": "Submit button(right)",
+                            "value": "Go Settings"
+                        }
+                    ]
+                },
+                {
+                    "key": "Popup.zdocRetryMax",
+                    "name": "zdoc retry max",
+                    "items": [
+                        {
+                            "id": "Popup.zdocRetryMax.title",
+                            "type": "text",
+                            "desc": "Title",
+                            "value": "Attempt limit reached"
+                        },
+                        {
+                            "id": "Popup.zdocRetryMax.desc",
+                            "type": "text",
+                            "desc": "Description",
+                            "value": "You've reached the maximum number of attempts. Please try again later"
+                        },
+                        {
+                            "id": "Popup.zdocRetryMax.submit",
+                            "type": "text",
+                            "desc": "Submit button(right)",
+                            "value": "Got it"
+                        }
+                    ]
+                },
+                {
+                    "key": "Popup.zfaceCameraInitError",
+                    "name": "zface camera init error",
+                    "items": [
+                        {
+                            "id": "Popup.zfaceCameraInitError.title",
+                            "type": "text",
+                            "desc": "Title"
+                        },
+                        {
+                            "id": "Popup.zfaceCameraInitError.desc",
+                            "type": "text",
+                            "desc": "Description",
+                            "value": "This mobile phone may be broken, not supported for face authentication"
+                        },
+                        {
+                            "id": "Popup.zfaceCameraInitError.submit",
+                            "type": "text",
+                            "desc": "Submit button(right)",
+                            "value": "Got it"
+                        }
+                    ]
+                },
+                {
+                    "key": "Popup.zfaceDeviceUnsupport",
+                    "name": "zface device unsupport",
+                    "items": [
+                        {
+                            "id": "Popup.zfaceDeviceUnsupport.title",
+                            "type": "text",
+                            "desc": "Title"
+                        },
+                        {
+                            "id": "Popup.zfaceDeviceUnsupport.desc",
+                            "type": "text",
+                            "desc": "Description",
+                            "value": "This mobile phone may be broken, not supported for face authentication"
+                        },
+                        {
+                            "id": "Popup.zfaceDeviceUnsupport.submit",
+                            "type": "text",
+                            "desc": "Submit button(right)",
+                            "value": "Got it"
+                        }
+                    ]
+                },
+                {
+                    "key": "Popup.zfaceInterrupt",
+                    "name": "zface interrupt",
+                    "items": [
+                        {
+                            "id": "Popup.zfaceInterrupt.title",
+                            "type": "text",
+                            "desc": "Title",
+                            "value": "Action Interrupted"
+                        },
+                        {
+                            "id": "Popup.zfaceInterrupt.desc",
+                            "type": "text",
+                            "desc": "Description",
+                            "value": "Whoops, your action was interrupted. Please try again!"
+                        },
+                        {
+                            "id": "Popup.zfaceInterrupt.cancel",
+                            "type": "text",
+                            "desc": "Cancel button(left)",
+                            "value": "Close"
+                        },
+                        {
+                            "id": "Popup.zfaceInterrupt.submit",
+                            "type": "text",
+                            "desc": "Submit button(right)",
+                            "value": "Retry"
+                        }
+                    ]
+                },
+                {
+                    "key": "Popup.zfaceTimeOut",
+                    "name": "zface time out",
+                    "items": [
+                        {
+                            "id": "Popup.zfaceTimeOut.title",
+                            "type": "text",
+                            "desc": "Title",
+                            "value": "Time out"
+                        },
+                        {
+                            "id": "Popup.zfaceTimeOut.desc",
+                            "type": "text",
+                            "desc": "Description",
+                            "value": "Please position your face within the frame and ensure the place is well-lit."
+                        },
+                        {
+                            "id": "Popup.zfaceTimeOut.cancel",
+                            "type": "text",
+                            "desc": "Cancel button(left)",
+                            "value": "Quit"
+                        },
+                        {
+                            "id": "Popup.zfaceTimeOut.submit",
+                            "type": "text",
+                            "desc": "Submit button(right)",
+                            "value": "Retry"
+                        }
+                    ]
+                },
+                {
+                    "key": "Popup.zfaceUserCancel",
+                    "name": "zface user cancel",
+                    "items": [
+                        {
+                            "id": "Popup.zfaceUserCancel.title",
+                            "type": "text",
+                            "desc": "Title",
+                            "value": "Are you sure want to quit?"
+                        },
+                        {
+                            "id": "Popup.zfaceUserCancel.desc",
+                            "type": "text",
+                            "desc": "Description",
+                            "value": "You are almost done, stay to complete?"
+                        },
+                        {
+                            "id": "Popup.zfaceUserCancel.cancel",
+                            "type": "text",
+                            "desc": "Cancel button(left)",
+                            "value": "Quit"
+                        },
+                        {
+                            "id": "Popup.zfaceUserCancel.submit",
+                            "type": "text",
+                            "desc": "Submit button(right)",
+                            "value": "Stay"
+                        }
+                    ]
+                },
+                {
+                    "key": "Popup.zfaceCameraWithoutPermission",
+                    "name": "zface camera without permission",
+                    "items": [
+                        {
+                            "id": "Popup.zfaceCameraWithoutPermission.title",
+                            "type": "text",
+                            "desc": "Title",
+                            "value": "“$appName” would like to access your camera"
+                        },
+                        {
+                            "id": "Popup.zfaceCameraWithoutPermission.desc",
+                            "type": "text",
+                            "desc": "Description",
+                            "value": "This allows you to take photos in the app."
+                        },
+                        {
+                            "id": "Popup.zfaceCameraWithoutPermission.cancel",
+                            "type": "text",
+                            "desc": "Cancel button(left)",
+                            "value": "Quit"
+                        },
+                        {
+                            "id": "Popup.zfaceCameraWithoutPermission.submit",
+                            "type": "text",
+                            "desc": "Submit button(right)",
+                            "value": "Go Settings"
+                        }
+                    ]
+                },
+                {
+                    "key": "Popup.zfaceScanFail",
+                    "name": "zface scan fail",
+                    "items": [
+                        {
+                            "id": "Popup.zfaceScanFail.title",
+                            "type": "text",
+                            "desc": "Title",
+                            "value": "Face scan failed"
+                        },
+                        {
+                            "id": "Popup.zfaceScanFail.desc",
+                            "type": "text",
+                            "desc": "Description",
+                            "value": "Please position your face within the frame and ensure the place is well-lit"
+                        },
+                        {
+                            "id": "Popup.zfaceScanFail.cancel",
+                            "type": "text",
+                            "desc": "Cancel button(left)",
+                            "value": "Quit"
+                        },
+                        {
+                            "id": "Popup.zfaceScanFail.submit",
+                            "type": "text",
+                            "desc": "Submit button(right)",
+                            "value": "Retry"
+                        }
+                    ]
+                },
+                {
+                    "key": "Popup.zfaceRetryMax",
+                    "name": "zface retry max",
+                    "items": [
+                        {
+                            "id": "Popup.zfaceRetryMax.title",
+                            "type": "text",
+                            "desc": "Title",
+                            "value": "Attempt limit reached"
+                        },
+                        {
+                            "id": "Popup.zfaceRetryMax.desc",
+                            "type": "text",
+                            "desc": "Description",
+                            "value": "You've reached the maximum number of attempts. Please try again later"
+                        },
+                        {
+                            "id": "Popup.zfaceRetryMax.submit",
+                            "type": "text",
+                            "desc": "Submit button(right)",
+                            "value": "Got it"
+                        }
+                    ]
+                }
+            ]
+        },
+        "garfield": {
+            "default": [
+                {
+                    "key": "Garfield.layer",
+                    "name": "Scan layer",
+                    "items": [
+                        {
+                            "id": "Garfield.layer.defaultText",
+                            "type": "text",
+                            "desc": "Default text",
+                            "value": "Face scan"
+                        },
+                        {
+                            "id": "Garfield.layer.loadingText",
+                            "type": "text",
+                            "desc": "Animation text",
+                            "value": "Lift your phone"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "popup": {
+        "id": "Popup",
+        "type": "object",
+        "desc": "",
+        "properties": {
+            "common": {
+                "id": "Popup.common",
+                "type": "object",
+                "desc": "Popup common (Android only，iOS系统默认)",
+                "properties": {
+                    "titleColor": {
+                        "id": "Popup.common.titleColor",
+                        "type": "color",
+                        "desc": "Title color",
+                        "value": {
+                            "hex": "#333333",
+                            "rgba": {
+                                "r": 51,
+                                "g": 51,
+                                "b": 51,
+                                "a": 1
+                            }
+                        }
+                    },
+                    "descColor": {
+                        "id": "Popup.common.descColor",
+                        "type": "color",
+                        "desc": "Description color",
+                        "value": {
+                            "hex": "#4A4A4A",
+                            "rgba": {
+                                "r": 74,
+                                "g": 74,
+                                "b": 74,
+                                "a": 1
+                            }
+                        }
+                    },
+                    "cancelColor": {
+                        "id": "Popup.common.cancelColor",
+                        "type": "color",
+                        "desc": "cancel Button color(left)",
+                        "value": {
+                            "hex": "#007AFF",
+                            "rgba": {
+                                "r": 0,
+                                "g": 122,
+                                "b": 255,
+                                "a": 1
+                            }
+                        }
+                    },
+                    "submitColor": {
+                        "id": "Popup.common.submitColor",
+                        "type": "color",
+                        "desc": "submit Button color(right)",
+                        "value": {
+                            "hex": "#007AFF",
+                            "rgba": {
+                                "r": 0,
+                                "g": 122,
+                                "b": 255,
+                                "a": 1
+                            }
+                        }
+                    }
+                }
+            },
+            "systemError": {
+                "id": "Popup.systemError",
+                "type": "object",
+                "desc": "system error",
+                "properties": {
+                    "title": {
+                        "id": "Popup.systemError.title",
+                        "type": "text",
+                        "desc": "Title",
+                        "value": "System Error"
+                    },
+                    "desc": {
+                        "id": "Popup.systemError.desc",
+                        "type": "text",
+                        "desc": "Description",
+                        "value": "Please try again later"
+                    },
+                    "submit": {
+                        "id": "Popup.systemError.submit",
+                        "type": "text",
+                        "desc": "Submit button(right)",
+                        "value": "OK"
+                    }
+                }
+            },
+            "networkError": {
+                "id": "Popup.networkError",
+                "type": "object",
+                "desc": "network error",
+                "properties": {
+                    "title": {
+                        "id": "Popup.networkError.title",
+                        "type": "text",
+                        "desc": "Title",
+                        "value": "No Internet Connection"
+                    },
+                    "desc": {
+                        "id": "Popup.networkError.desc",
+                        "type": "text",
+                        "desc": "Description",
+                        "value": "Please check your internet connection and try again"
+                    },
+                    "cancel": {
+                        "id": "Popup.networkError.cancel",
+                        "type": "text",
+                        "desc": "Cancel button(left)",
+                        "value": "Close"
+                    },
+                    "submit": {
+                        "id": "Popup.networkError.submit",
+                        "type": "text",
+                        "desc": "Submit button(right)",
+                        "value": "Retry"
+                    }
+                }
+            },
+            "zdocUserCancel": {
+                "id": "Popup.zdocUserCancel",
+                "type": "object",
+                "desc": "zdoc user cancel",
+                "properties": {
+                    "title": {
+                        "id": "Popup.zdocUserCancel.title",
+                        "type": "text",
+                        "desc": "Title",
+                        "value": "Will you leave or stay?"
+                    },
+                    "desc": {
+                        "id": "Popup.zdocUserCancel.desc",
+                        "type": "text",
+                        "desc": "Description",
+                        "value": "Please stay to have a quick verification"
+                    },
+                    "cancel": {
+                        "id": "Popup.zdocUserCancel.cancel",
+                        "type": "text",
+                        "desc": "Cancel button(left)",
+                        "value": "Leave"
+                    },
+                    "submit": {
+                        "id": "Popup.zdocUserCancel.submit",
+                        "type": "text",
+                        "desc": "Submit button(right)",
+                        "value": "Stay"
+                    }
+                }
+            },
+            "zdocNoDocument": {
+                "id": "Popup.zdocNoDocument",
+                "type": "object",
+                "desc": "zdoc no document",
+                "properties": {
+                    "title": {
+                        "id": "Popup.zdocNoDocument.title",
+                        "type": "text",
+                        "desc": "Title",
+                        "value": "ID type is not correct"
+                    },
+                    "desc": {
+                        "id": "Popup.zdocNoDocument.desc",
+                        "type": "text",
+                        "desc": "Description",
+                        "value": "Make sure you are using the specified type of ID"
+                    },
+                    "cancel": {
+                        "id": "Popup.zdocNoDocument.cancel",
+                        "type": "text",
+                        "desc": "Cancel button(left)",
+                        "value": "Close"
+                    },
+                    "submit": {
+                        "id": "Popup.zdocNoDocument.submit",
+                        "type": "text",
+                        "desc": "Submit button(right)",
+                        "value": "Retry"
+                    }
+                }
+            },
+            "zdocImperfect": {
+                "id": "Popup.zdocImperfect",
+                "type": "object",
+                "desc": "zdoc imperfect",
+                "properties": {
+                    "title": {
+                        "id": "Popup.zdocImperfect.title",
+                        "type": "text",
+                        "desc": "Title",
+                        "value": "ID is incomplete"
+                    },
+                    "desc": {
+                        "id": "Popup.zdocImperfect.desc",
+                        "type": "text",
+                        "desc": "Description",
+                        "value": "Make sure your ID can be clearly seen and is complete"
+                    },
+                    "cancel": {
+                        "id": "Popup.zdocImperfect.cancel",
+                        "type": "text",
+                        "desc": "Cancel button(left)",
+                        "value": "Close"
+                    },
+                    "submit": {
+                        "id": "Popup.zdocImperfect.submit",
+                        "type": "text",
+                        "desc": "Submit button(right)",
+                        "value": "Retry"
+                    }
+                }
+            },
+            "zdocBlur": {
+                "id": "Popup.zdocBlur",
+                "type": "object",
+                "desc": "zdoc blur",
+                "properties": {
+                    "title": {
+                        "id": "Popup.zdocBlur.title",
+                        "type": "text",
+                        "desc": "Title",
+                        "value": "ID picture is not clear"
+                    },
+                    "desc": {
+                        "id": "Popup.zdocBlur.desc",
+                        "type": "text",
+                        "desc": "Description",
+                        "value": "Make sure your ID can be clearly seen and has no glare"
+                    },
+                    "cancel": {
+                        "id": "Popup.zdocBlur.cancel",
+                        "type": "text",
+                        "desc": "Cancel button(left)",
+                        "value": "Close"
+                    },
+                    "submit": {
+                        "id": "Popup.zdocBlur.submit",
+                        "type": "text",
+                        "desc": "Submit button(right)",
+                        "value": "Retry"
+                    }
+                }
+            },
+            "zdocExposure": {
+                "id": "Popup.zdocExposure",
+                "type": "object",
+                "desc": "zdoc exposure",
+                "properties": {
+                    "title": {
+                        "id": "Popup.zdocExposure.title",
+                        "type": "text",
+                        "desc": "Title",
+                        "value": "ID photo is not clear"
+                    },
+                    "desc": {
+                        "id": "Popup.zdocExposure.desc",
+                        "type": "text",
+                        "desc": "Description",
+                        "value": "Make sure your ID can be clearly seen and has no glare"
+                    },
+                    "cancel": {
+                        "id": "Popup.zdocExposure.cancel",
+                        "type": "text",
+                        "desc": "Cancel button(left)",
+                        "value": "Close"
+                    },
+                    "submit": {
+                        "id": "Popup.zdocExposure.submit",
+                        "type": "text",
+                        "desc": "Submit button(right)",
+                        "value": "Retry"
+                    }
+                }
+            },
+            "zdocNoface": {
+                "id": "Popup.zdocNoface",
+                "type": "object",
+                "desc": "zdoc noface",
+                "properties": {
+                    "title": {
+                        "id": "Popup.zdocNoface.title",
+                        "type": "text",
+                        "desc": "Title",
+                        "value": "No face photo on ID"
+                    },
+                    "desc": {
+                        "id": "Popup.zdocNoface.desc",
+                        "type": "text",
+                        "desc": "Description",
+                        "value": "Make sure your face photo on ID can be clearly seen"
+                    },
+                    "cancel": {
+                        "id": "Popup.zdocNoface.cancel",
+                        "type": "text",
+                        "desc": "Cancel button(left)",
+                        "value": "Close"
+                    },
+                    "submit": {
+                        "id": "Popup.zdocNoface.submit",
+                        "type": "text",
+                        "desc": "Submit button(right)",
+                        "value": "Retry"
+                    }
+                }
+            },
+            "zdocUnknow": {
+                "id": "Popup.zdocUnknow",
+                "type": "object",
+                "desc": "zdoc unknow",
+                "properties": {
+                    "title": {
+                        "id": "Popup.zdocUnknow.title",
+                        "type": "text",
+                        "desc": "Title",
+                        "value": "ID photo is not clear"
+                    },
+                    "desc": {
+                        "id": "Popup.zdocUnknow.desc",
+                        "type": "text",
+                        "desc": "Description",
+                        "value": "Make sure your ID can be clearly seen and has no glare"
+                    },
+                    "cancel": {
+                        "id": "Popup.zdocUnknow.cancel",
+                        "type": "text",
+                        "desc": "Cancel button(left)",
+                        "value": "Close"
+                    },
+                    "submit": {
+                        "id": "Popup.zdocUnknow.submit",
+                        "type": "text",
+                        "desc": "Submit button(right)",
+                        "value": "Retry"
+                    }
+                }
+            },
+            "zdocCameraPermission": {
+                "id": "Popup.zdocCameraPermission",
+                "type": "object",
+                "desc": "zdoc camera permission",
+                "properties": {
+                    "title": {
+                        "id": "Popup.zdocCameraPermission.title",
+                        "type": "text",
+                        "desc": "Title",
+                        "value": ""
+                    },
+                    "desc": {
+                        "id": "Popup.zdocCameraPermission.desc",
+                        "type": "text",
+                        "desc": "Description",
+                        "value": "ZOLOZ would like to access your camera "
+                    },
+                    "cancel": {
+                        "id": "Popup.zdocCameraPermission.cancel",
+                        "type": "text",
+                        "desc": "Cancel button(left)",
+                        "value": "Don't Allow"
+                    },
+                    "submit": {
+                        "id": "Popup.zdocCameraPermission.submit",
+                        "type": "text",
+                        "desc": "Submit button(right)",
+                        "value": "OK"
+                    }
+                }
+            },
+            "zdocRetryMax": {
+                "id": "Popup.zdocRetryMax",
+                "type": "object",
+                "desc": "zdoc retry max",
+                "properties": {
+                    "title": {
+                        "id": "Popup.zdocRetryMax.title",
+                        "type": "text",
+                        "desc": "Title",
+                        "value": "Attempt limit reached"
+                    },
+                    "desc": {
+                        "id": "Popup.zdocRetryMax.desc",
+                        "type": "text",
+                        "desc": "Description",
+                        "value": "You've reached the maximum number of attempts. Please try later"
+                    },
+                    "submit": {
+                        "id": "Popup.zdocRetryMax.submit",
+                        "type": "text",
+                        "desc": "Submit button(right)",
+                        "value": "Got it"
+                    }
+                }
+            },
+            "zfaceCameraInitError": {
+                "id": "Popup.zfaceCameraInitError",
+                "type": "object",
+                "desc": "zface camera init error",
+                "properties": {
+                    "title": {
+                        "id": "Popup.zfaceCameraInitError.title",
+                        "type": "text",
+                        "desc": "Title",
+                        "value": "System Error"
+                    },
+                    "desc": {
+                        "id": "Popup.zfaceCameraInitError.desc",
+                        "type": "text",
+                        "desc": "Description",
+                        "value": "Please try again later"
+                    },
+                    "submit": {
+                        "id": "Popup.zfaceCameraInitError.submit",
+                        "type": "text",
+                        "desc": "Submit button(right)",
+                        "value": "Got it"
+                    }
+                }
+            },
+            "zfaceDeviceUnsupport": {
+                "id": "Popup.zfaceDeviceUnsupport",
+                "type": "object",
+                "desc": "zface device unsupport",
+                "properties": {
+                    "title": {
+                        "id": "Popup.zfaceDeviceUnsupport.title",
+                        "type": "text",
+                        "desc": "Title",
+                        "value": "System Error "
+                    },
+                    "desc": {
+                        "id": "Popup.zfaceDeviceUnsupport.desc",
+                        "type": "text",
+                        "desc": "Description",
+                        "value": "Please try again later"
+                    },
+                    "submit": {
+                        "id": "Popup.zfaceDeviceUnsupport.submit",
+                        "type": "text",
+                        "desc": "Submit button(right)",
+                        "value": "Got it"
+                    }
+                }
+            },
+            "zfaceInterrupt": {
+                "id": "Popup.zfaceInterrupt",
+                "type": "object",
+                "desc": "zface interrupt",
+                "properties": {
+                    "title": {
+                        "id": "Popup.zfaceInterrupt.title",
+                        "type": "text",
+                        "desc": "Title",
+                        "value": "Face scan was interrupted"
+                    },
+                    "desc": {
+                        "id": "Popup.zfaceInterrupt.desc",
+                        "type": "text",
+                        "desc": "Description",
+                        "value": "Sorry, scan face was interrupted, please try it again"
+                    },
+                    "cancel": {
+                        "id": "Popup.zfaceInterrupt.cancel",
+                        "type": "text",
+                        "desc": "Cancel button(left)",
+                        "value": "Close"
+                    },
+                    "submit": {
+                        "id": "Popup.zfaceInterrupt.submit",
+                        "type": "text",
+                        "desc": "Submit button(right)",
+                        "value": "Retry"
+                    }
+                }
+            },
+            "zfaceTimeOut": {
+                "id": "Popup.zfaceTimeOut",
+                "type": "object",
+                "desc": "zface time out",
+                "properties": {
+                    "title": {
+                        "id": "Popup.zfaceTimeOut.title",
+                        "type": "text",
+                        "desc": "Title",
+                        "value": "Time out"
+                    },
+                    "desc": {
+                        "id": "Popup.zfaceTimeOut.desc",
+                        "type": "text",
+                        "desc": "Description",
+                        "value": "Sorry, scan face is time out, please try it again"
+                    },
+                    "cancel": {
+                        "id": "Popup.zfaceTimeOut.cancel",
+                        "type": "text",
+                        "desc": "Cancel button(left)",
+                        "value": "Close"
+                    },
+                    "submit": {
+                        "id": "Popup.zfaceTimeOut.submit",
+                        "type": "text",
+                        "desc": "Submit button(right)",
+                        "value": "Retry"
+                    }
+                }
+            },
+            "zfaceUserCancel": {
+                "id": "Popup.zfaceUserCancel",
+                "type": "object",
+                "desc": "zface user cancel",
+                "properties": {
+                    "title": {
+                        "id": "Popup.zfaceUserCancel.title",
+                        "type": "text",
+                        "desc": "Title",
+                        "value": "Will you leave or stay?"
+                    },
+                    "desc": {
+                        "id": "Popup.zfaceUserCancel.desc",
+                        "type": "text",
+                        "desc": "Description",
+                        "value": "Please stay to have a quick verification"
+                    },
+                    "cancel": {
+                        "id": "Popup.zfaceUserCancel.cancel",
+                        "type": "text",
+                        "desc": "Cancel button(left)",
+                        "value": "Leave"
+                    },
+                    "submit": {
+                        "id": "Popup.zfaceUserCancel.submit",
+                        "type": "text",
+                        "desc": "Submit button(right)",
+                        "value": "Stay"
+                    }
+                }
+            },
+            "zfaceCameraWithoutPermission": {
+                "id": "Popup.zfaceCameraWithoutPermission",
+                "type": "object",
+                "desc": "zface camera without permission",
+                "properties": {
+                    "title": {
+                        "id": "Popup.zfaceCameraWithoutPermission.title",
+                        "type": "text",
+                        "desc": "Title",
+                        "value": ""
+                    },
+                    "desc": {
+                        "id": "Popup.zfaceCameraWithoutPermission.desc",
+                        "type": "text",
+                        "desc": "Description",
+                        "value": "ZOLOZ would like to access your camera"
+                    },
+                    "cancel": {
+                        "id": "Popup.zfaceCameraWithoutPermission.cancel",
+                        "type": "text",
+                        "desc": "Cancel button(left)",
+                        "value": "Don't Allow"
+                    },
+                    "submit": {
+                        "id": "Popup.zfaceCameraWithoutPermission.submit",
+                        "type": "text",
+                        "desc": "Submit button(right)",
+                        "value": "OK"
+                    }
+                }
+            },
+            "zfaceScanFail": {
+                "id": "Popup.zfaceScanFail",
+                "type": "object",
+                "desc": "zface scan fail",
+                "properties": {
+                    "title": {
+                        "id": "Popup.zfaceScanFail.title",
+                        "type": "text",
+                        "desc": "Title",
+                        "value": "Face scan failed"
+                    },
+                    "desc": {
+                        "id": "Popup.zfaceScanFail.desc",
+                        "type": "text",
+                        "desc": "Description",
+                        "value": "Position your face within the frame and make sure there is enough light"
+                    },
+                    "cancel": {
+                        "id": "Popup.zfaceScanFail.cancel",
+                        "type": "text",
+                        "desc": "Cancel button(left)",
+                        "value": "Close"
+                    },
+                    "submit": {
+                        "id": "Popup.zfaceScanFail.submit",
+                        "type": "text",
+                        "desc": "Submit button(right)",
+                        "value": "Retry"
+                    }
+                }
+            },
+            "zfaceRetryMax": {
+                "id": "Popup.zfaceRetryMax",
+                "type": "object",
+                "desc": "zface retry max",
+                "properties": {
+                    "title": {
+                        "id": "Popup.zfaceRetryMax.title",
+                        "type": "text",
+                        "desc": "Title",
+                        "value": "Attempt limit reached"
+                    },
+                    "desc": {
+                        "id": "Popup.zfaceRetryMax.desc",
+                        "type": "text",
+                        "desc": "Description",
+                        "value": "You've reached the maximum number of attempts. Please try later"
+                    },
+                    "submit": {
+                        "id": "Popup.zfaceRetryMax.submit",
+                        "type": "text",
+                        "desc": "Submit button(right)",
+                        "value": "Got it"
+                    }
+                }
+            }
+        }
+    },
+    "titleBar": {
+        "id": "TitleBar",
+        "type": "object",
+        "desc": "Navigation Bar",
+        "properties": {
+            "back": {
+                "id": "TitleBar.back",
+                "type": "radio",
+                "desc": "Bar button",
+                "value": {
+                    "uid": "rc-upload-1559038959363-9",
+                    "type": "image/png",
+                    "name": "叉.png",
+                    "url": "data:image/png;base64,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",
+                    "status": "done"
+                },
+                "name": "Custom image",
+                "items": [
+                    {
+                        "type": "image",
+                        "name": "arrow",
+                        "value": "img-backarrow"
+                    },
+                    {
+                        "type": "image",
+                        "name": "close",
+                        "value": "img-backclose"
+                    },
+                    {
+                        "type": "text",
+                        "name": "Custom copy",
+                        "value": "back"
+                    },
+                    {
+                        "type": "upload-image",
+                        "name": "Custom image",
+                        "value": {
+                            "uid": "rc-upload-1559038959363-9",
+                            "type": "image/png",
+                            "name": "叉.png",
+                            "url": "data:image/png;base64,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",
+                            "status": "done"
+                        }
+                    }
+                ]
+            },
+            "color": {
+                "id": "TitleBar.color",
+                "desc": "TitleBar common",
+                "type": "object",
+                "properties": {
+                    "background": {
+                        "id": "TitleBar.color.background",
+                        "type": "color",
+                        "desc": "TitleBar background color",
+                        "value": {
+                            "hex": "#4a90e2",
+                            "rgba": {
+                                "r": 74,
+                                "g": 144,
+                                "b": 226,
+                                "a": 1
+                            }
+                        }
+                    },
+                    "text": {
+                        "id": "TitleBar.color.text",
+                        "type": "color",
+                        "desc": "TitleBar text color",
+                        "value": {
+                            "hex": "#ffffff",
+                            "rgba": {
+                                "r": 255,
+                                "g": 255,
+                                "b": 255,
+                                "a": 1
+                            }
+                        }
+                    },
+                    "hasBorder": {
+                        "id": "TitleBar.color.hasBorder",
+                        "desc": "TitleBar bottom border",
+                        "type": "radio",
+                        "name": "No bottom border",
+                        "value": false,
+                        "items": [
+                            {
+                                "type": "default",
+                                "name": "Have bottom border",
+                                "value": true
+                            },
+                            {
+                                "type": "default",
+                                "name": "No bottom border",
+                                "value": false
+                            }
+                        ]
+                    },
+                    "isBackLeft": {
+                        "id": "TitleBar.color.isBackLeft",
+                        "desc": "TitleBar back in left or right",
+                        "type": "radio",
+                        "name": "Back bar in left",
+                        "value": true,
+                        "items": [
+                            {
+                                "type": "default",
+                                "name": "Back bar in left",
+                                "value": true
+                            },
+                            {
+                                "type": "default",
+                                "name": "Back bar in right",
+                                "value": false
+                            }
+                        ]
+                    },
+                    "showExitDialog": {
+                        "id": "TitleBar.color.showExitDialog",
+                        "desc": "Click back is show exit dialog",
+                        "type": "radio",
+                        "name": "Show exit dialog",
+                        "value": true,
+                        "items": [
+                            {
+                                "type": "default",
+                                "name": "Show exit dialog",
+                                "value": true
+                            },
+                            {
+                                "type": "default",
+                                "name": "Not show exit dialog",
+                                "value": false
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "country": {
+        "id": "00000001",
+        "name": "COM"
+    },
+    "docTypes": [
+        {
+            "id": "003",
+            "name": "Passport(full)"
+        }
+    ],
+    "doc": {
+        "00000001003_1": {
+            "frameType": "standard_frame",
+            "countryId": "00000001",
+            "countryName": "COM",
+            "docTypeId": "003_1",
+            "docTypeName": "Passport(full)",
+            "pageNum": 1,
+            "id": "Doc",
+            "type": "object",
+            "desc": "Doc",
+            "properties": {
+                "frame": {
+                    "id": "Doc.frame",
+                    "type": "object",
+                    "desc": "Camera frame",
+                    "properties": {
+                        "tipsColor": {
+                            "id": "Doc.frame.tipsColor",
+                            "type": "color",
+                            "desc": "Frame tips text color",
+                            "value": {
+                                "hex": "#ffffff",
+                                "rgba": {
+                                    "r": 255,
+                                    "g": 255,
+                                    "b": 255,
+                                    "a": 1
+                                }
+                            }
+                        },
+                        "borderColor": {
+                            "id": "Doc.frame.borderColor",
+                            "type": "color",
+                            "desc": "Frame border color",
+                            "value": {
+                                "hex": "#4a90e2",
+                                "rgba": {
+                                    "r": 74,
+                                    "g": 144,
+                                    "b": 226,
+                                    "a": 1
+                                }
+                            }
+                        },
+                        "borderRaduisColor": {
+                            "id": "Doc.frame.borderRaduisColor",
+                            "type": "color",
+                            "desc": "Frame border raduis color",
+                            "value": {
+                                "hex": "#4a90e2",
+                                "rgba": {
+                                    "r": 74,
+                                    "g": 144,
+                                    "b": 226,
+                                    "a": 1
+                                }
+                            }
+                        },
+                        "backgroundColor": {
+                            "id": "Doc.frame.backgroundColor",
+                            "type": "color",
+                            "desc": "Frame background color",
+                            "value": {
+                                "hex": "#000000",
+                                "rgba": {
+                                    "r": 0,
+                                    "g": 0,
+                                    "b": 0,
+                                    "a": 0.5
+                                }
+                            }
+                        }
+                    }
+                },
+                "operation": {
+                    "id": "Doc.operation",
+                    "type": "object",
+                    "desc": "Operation interface",
+                    "properties": {
+                        "background": {
+                            "id": "Doc.operation.background",
+                            "type": "color",
+                            "desc": "Background",
+                            "value": {
+                                "hex": "#000000",
+                                "rgba": {
+                                    "r": 0,
+                                    "g": 0,
+                                    "b": 0,
+                                    "a": 1
+                                }
+                            }
+                        },
+                        "color": {
+                            "id": "Doc.operation.color",
+                            "type": "color",
+                            "desc": "text color",
+                            "value": {
+                                "hex": "#ffffff",
+                                "rgba": {
+                                    "r": 255,
+                                    "g": 255,
+                                    "b": 255,
+                                    "a": 1
+                                }
+                            }
+                        },
+                        "photoButtonColor": {
+                            "id": "Doc.operation.photoButtonColor",
+                            "type": "color",
+                            "desc": "take photo button color",
+                            "value": {
+                                "hex": "#ffffff",
+                                "rgba": {
+                                    "r": 255,
+                                    "g": 255,
+                                    "b": 255,
+                                    "a": 1
+                                }
+                            }
+                        },
+                        "photoButtonLinkColor": {
+                            "id": "Doc.operation.photoButtonLinkColor",
+                            "type": "color",
+                            "desc": "take photo button loading color",
+                            "value": {
+                                "hex": "#000000",
+                                "rgba": {
+                                    "r": 0,
+                                    "g": 0,
+                                    "b": 0,
+                                    "a": 1
+                                }
+                            }
+                        },
+                        "buttonLayout": {
+                            "id": "Doc.operation.buttonLayout",
+                            "type": "radio",
+                            "desc": "Button layout",
+                            "name": "row",
+                            "value": "img-buttonlayout-row",
+                            "items": [
+                                {
+                                    "type": "image",
+                                    "name": "row",
+                                    "value": "img-buttonlayout-row"
+                                },
+                                {
+                                    "type": "image",
+                                    "name": "col",
+                                    "value": "img-buttonlayout-col"
+                                }
+                            ]
+                        },
+                        "buttonCancelColor": {
+                            "id": "Doc.operation.buttonCancelColor",
+                            "type": "color",
+                            "desc": "Retake text colour",
+                            "value": {
+                                "hex": "#ffffff",
+                                "rgba": {
+                                    "r": 255,
+                                    "g": 255,
+                                    "b": 255,
+                                    "a": 1
+                                }
+                            }
+                        },
+                        "buttonCancelBorderColor": {
+                            "id": "Doc.operation.buttonCancelBorderColor",
+                            "type": "color",
+                            "desc": "Retake button border colour",
+                            "value": {
+                                "hex": "#ffffff",
+                                "rgba": {
+                                    "r": 255,
+                                    "g": 255,
+                                    "b": 255,
+                                    "a": 1
+                                }
+                            }
+                        },
+                        "buttonCancelBackgroundColor": {
+                            "id": "Doc.operation.buttonCancelBackgroundColor",
+                            "type": "color",
+                            "desc": "Retake button background colour",
+                            "value": {
+                                "hex": "#000000",
+                                "rgba": {
+                                    "r": 0,
+                                    "g": 0,
+                                    "b": 0,
+                                    "a": 1
+                                }
+                            }
+                        },
+                        "buttonCancel": {
+                            "id": "Doc.operation.buttonCancel",
+                            "type": "text",
+                            "desc": "Retake text",
+                            "value": "Retake"
+                        },
+                        "buttonSubmitColor": {
+                            "id": "Doc.operation.buttonSubmitColor",
+                            "type": "color",
+                            "desc": "Submit text colour",
+                            "value": {
+                                "hex": "#000000",
+                                "rgba": {
+                                    "r": 0,
+                                    "g": 0,
+                                    "b": 0,
+                                    "a": 1
+                                }
+                            }
+                        },
+                        "buttonSubmitBorderColor": {
+                            "id": "Doc.operation.buttonSubmitBorderColor",
+                            "type": "color",
+                            "desc": "Submit button border colour",
+                            "value": {
+                                "hex": "#ffffff",
+                                "rgba": {
+                                    "r": 255,
+                                    "g": 255,
+                                    "b": 255,
+                                    "a": 1
+                                }
+                            }
+                        },
+                        "buttonSubmitBackgroundColor": {
+                            "id": "Doc.operation.buttonSubmitBackgroundColor",
+                            "type": "color",
+                            "desc": "Submit button background colour",
+                            "value": {
+                                "hex": "#ffffff",
+                                "rgba": {
+                                    "r": 255,
+                                    "g": 255,
+                                    "b": 255,
+                                    "a": 1
+                                }
+                            }
+                        },
+                        "buttonSubmit": {
+                            "id": "Doc.operation.buttonSubmit",
+                            "type": "text",
+                            "desc": "Submit text",
+                            "value": "Submit"
+                        },
+                        "zolozPowerColor": {
+                            "id": "Doc.operation.zolozPowerColor",
+                            "type": "color",
+                            "desc": "\"zoloz power\" text color",
+                            "value": {
+                                "hex": "#9b9b9b",
+                                "rgba": {
+                                    "r": 155,
+                                    "g": 155,
+                                    "b": 155,
+                                    "a": 1
+                                }
+                            }
+                        }
+                    }
+                },
+                "copy": {
+                    "id": "Doc.copy",
+                    "type": "object",
+                    "desc": "Copy",
+                    "properties": {
+                        "tips": {
+                            "id": "Doc.copy.tips",
+                            "type": "text",
+                            "desc": "Tips of taking photo",
+                            "value": "Front of ID"
+                        },
+                        "step1": {
+                            "id": "Doc.copy.step1",
+                            "type": "text",
+                            "desc": "Position of ID",
+                            "value": "Place your ID within the frame and take a picture"
+                        },
+                        "step2": {
+                            "id": "Doc.copy.step2",
+                            "type": "text",
+                            "desc": "Tips of confirming photo",
+                            "value": "Make sure the picture has no glare and not blurry"
+                        },
+                        "step3": {
+                            "id": "Doc.copy.step3",
+                            "type": "text",
+                            "desc": "Processing copy",
+                            "value": "Processing..."
+                        },
+                        "step4": {
+                            "id": "Doc.copy.step4",
+                            "type": "text",
+                            "desc": "Complete copy",
+                            "value": "Submission Completed!"
+                        }
+                    }
+                }
+            }
+        },
+        "title": {
+            "id": "title",
+            "type": "object",
+            "desc": "Navigation title",
+            "properties": {
+                "text": {
+                    "id": "title.text",
+                    "type": "text",
+                    "desc": "Title",
+                    "value": "Take ID Picture"
+                }
+            }
+        }
+    }
+}

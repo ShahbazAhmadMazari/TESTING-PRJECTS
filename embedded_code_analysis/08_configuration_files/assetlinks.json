@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "pk.com.telenor.phoenix",
+      "sha256_cert_fingerprints": [
+        "2E:4F:36:20:38:2F:2B:63:5B:20:BB:EE:37:0A:0F:7E:A3:5E:E1:21:79:7A:F7:03:75:FF:BB:FB:B6:70:87:4F",
+        "26:AB:13:E7:DA:A0:BE:6E:13:80:A6:21:16:DE:FA:CD:86:00:88:AB:82:7D:99:D2:9E:A9:95:83:79:90:E6:1B"
+      ]
+    }
+  }
+]

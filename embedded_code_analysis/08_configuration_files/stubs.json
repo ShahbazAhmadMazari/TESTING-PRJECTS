@@ -1,0 +1,68 @@
+[
+  {
+    "proType": "1",
+    "proContent": "What is your mother name?",
+    "proContentU": "What is your mother name?",
+    "optionDTOList": [
+      {
+        "optionContent": "Aysha-",
+        "optionId": "1",
+        "proId": "1"
+      },
+      {
+        "optionContent": "defg",
+        "optionId": "2",
+        "proId": "1"
+      },
+      {
+        "optionContent": "xxssa",
+        "optionId": "3",
+        "proId": "1"
+      }
+    ]
+  },
+  {
+    "proType": "1",
+    "proContent": "what is your birth city?",
+    "proContentU": "what is your birth city?",
+    "optionDTOList": [
+      {
+        "optionContent": "abcd",
+        "optionId": "1",
+        "proId": "1"
+      },
+      {
+        "optionContent": "defg",
+        "optionId": "2",
+        "proId": "1"
+      },
+      {
+        "optionContent": "xxssa",
+        "optionId": "3",
+        "proId": "1"
+      }
+    ]
+  },
+  {
+    "proType": "1",
+    "proContent": "what is your date of birth?",
+    "proContentU": "what is your date of birth?",
+    "optionDTOList": [
+      {
+        "optionContent": "abcd",
+        "optionId": "1",
+        "proId": "1"
+      },
+      {
+        "optionContent": "defg",
+        "optionId": "2",
+        "proId": "1"
+      },
+      {
+        "optionContent": "xxssa",
+        "optionId": "3",
+        "proId": "1"
+      }
+    ]
+  }
+]

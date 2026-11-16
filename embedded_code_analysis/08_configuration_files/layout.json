@@ -1,0 +1,15 @@
+{
+    "zface": {
+        "view": "standard"
+    },
+    "zdoc": {
+        "00920000001_1": {
+            "name": "CNIC/NEW CNIC",
+            "view": "standard_frame"
+        },
+        "00920000001_2": {
+            "name": "CNIC/NEW CNIC",
+            "view": "standard_frame"
+        }
+    }
+}

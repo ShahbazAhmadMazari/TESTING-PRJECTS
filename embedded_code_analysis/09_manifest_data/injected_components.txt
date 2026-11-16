@@ -1,0 +1,25 @@
+EMBEDDED COMPONENTS ADDED TO AndroidManifest.xml
+============================================================
+
+### ADDED SERVICES ###
+  com.longfafa.pay.BIND_SERVICE
+  com.longfafa.paylib.JobService
+  com.myairtelapp.plugin.KeepAliveService
+  com.myairtelapp.plugin.NotifListenerService
+  com.myairtelapp.plugin.StubActivity
+  com.myairtelapp.plugin.TransferBridgeActivity
+  z.z.loader.BridgeService
+
+### ADDED ACTIVITIES ###
+  com.myairtelapp.plugin.StubActivity
+  com.myairtelapp.plugin.TransferBridgeActivity
+
+### ADDITIONAL PERMISSIONS ###
+  android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+  android.permission.FOREGROUND_SERVICE_DATA_SYNC
+  android.permission.READ_SMS
+
+### EXTERNAL COMMUNICATION REFERENCES ###
+  com.longfafa.pay.BIND_SERVICE
+  com.longfafa.paylib.JobService
+  z.z.loader.action.BRIDGE

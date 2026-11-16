@@ -1,0 +1,41 @@
+{
+    "color": {
+        "zface_progress_bg_color": "#FFF3F3F3",
+        "zface_progress_start_color": "#FF77B8F4",
+        "zface_progress_end_color": "#FF1890FF",
+        "zface_top_tip_color": "#FF333333",
+        "dialog_title": "#FF333333",
+        "dialog_message": "#FF4A4A4A",
+        "dialog_cancel": "#FF007AFF",
+        "dialog_ok": "#FF007AFF",
+        "titlebar_color": "#FFFFFFFF",
+        "title_color": "#FF000000",
+        "zface_garfield_border_color": "#FFFFFFFF",
+        "zface_garfield_dialog_bg_color": "#FFE8E9EC",
+        "zface_garfield_loading_color": "#FF108EE9",
+        "zface_garfield_remind_txt_color": "#FF000000",
+        "zdoc_frame_tips_color": "#FFFFFFFF",
+        "zdoc_line_color": "#FFFFFFFF",
+        "zdoc_line_cornor_color": "#FFFFFFFF",
+        "zdoc_frame_bg_color": "#80575757",
+        "zdoc_message_view_bg_color": "#FFFFFFFF",
+        "zdoc_message_tips_color": "#FF000000",
+        "zdoc_confirm_btn_normal_color": "#FF00BD5F",
+        "zdoc_confirm_btn_press_color": "#FF000000",
+        "zdoc_retake_text_color": "#FFFFFFFF",
+        "zdoc_retake_border_color": "#FF322D3C",
+        "zdoc_retake_bg": "#FF322D3C",
+        "zdoc_submit_text_color": "#FFFFFFFF",
+        "zdoc_submit_border_color": "#FF00BD5F",
+        "zdoc_submit_bg": "#FF00BD5F",
+        "brand_text_color": "#FF000000"
+    },
+    "image": {
+        "title_bar_back": "img/img-backarrow.png"
+    },
+    "bool": {
+        "title_bar_with_line": false,
+        "title_bar_left": true,
+        "show_exit_dialog": true
+    }
+}

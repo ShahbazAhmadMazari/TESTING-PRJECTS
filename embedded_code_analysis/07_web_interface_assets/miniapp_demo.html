@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<body style="padding: 24px; word-wrap: break-word;">
+<div class="head">
+    <span class="font_big" style="font-size:5vw;">Easypaisa MiniApp Demo</span>
+    <br></br>
+    <span class="font_grey" style="font-size:4vw;">Welcome to Easypaisa MiniApp Demo</span><br/>
+</div>
+<br></br>
+
+<div class="head" style="bottom: 0px;">
+    <button id="userAuthCode-btn" onclick="" style="font-size:3vw; border: green 1px solid; width: 100%;"
+            type="button">User Authorization Code
+    </button>
+</div>
+
+<br></br>
+
+<div class="head" style="bottom: 0px;">
+    <input autocomplete="off" class="layui-input" id="transactionIdField" lay-verify="title" name="transactionIdField"
+           placeholder="Transaction Id" style="font-size:3vw; display:inline-block;  width: 100%; " type="text">
+    <br></br>
+    <button id="createPayment-btn" onclick="" style="font-size:3vw; border: green 1px solid; width: 100%;" type="button">Perform Payment</button>
+</div>
+
+<br></br>
+
+<div class="head" style="bottom: 0px;">
+    <button id="userLocation-btn" onclick="" style="font-size:3vw; border: green 1px solid; width: 100%;"
+            type="button">User Location
+    </button>
+</div>
+
+<br></br>
+
+<div class="head" style="bottom: 0px;">
+    <button id="microphone-btn" onclick="" style="font-size:3vw; border: green 1px solid; width: 100%;"
+            type="button">Microphone Permission
+    </button>
+</div>
+
+<br></br>
+
+<div class="head" style="bottom: 0px;">
+    <button id="camera-btn" onclick="" style="font-size:3vw; border: green 1px solid; width: 100%;"
+            type="button">Camera Permission
+    </button>
+</div>
+
+<br></br>
+
+
+<div class="head" style="bottom: 0px;">
+    <button id="photoLibrary-btn" onclick="" style="font-size:3vw; border: green 1px solid; width: 100%;"
+            type="button">Photo Library Permission
+    </button>
+</div>
+
+<br></br>
+
+<div class="head" style="bottom: 0px;">
+    <button id="showLoader-btn" onclick="" style="font-size:3vw; border: green 1px solid; width: 100%;"
+            type="button">Show Loader
+    </button>
+</div>
+
+<br></br>
+
+<div class="head" style="bottom: 0px;">
+    <button id="hideLoader-btn" onclick="" style="font-size:3vw; border: green 1px solid; width: 100%;"
+            type="button">Hide Loader
+    </button>
+</div>
+
+<br></br>
+
+<div class="head" style="bottom: 0px;">
+    <button id="actionSheet-btn" onclick="" style="font-size:3vw; border: green 1px solid; width: 100%;"
+            type="button">Action Sheet
+    </button>
+</div>
+
+<br></br>
+
+<div class="head" style="bottom: 0px;">
+    <select id="hapticFeedbackOption" name="hapticFeedbackOption" style="font-size:3vw; display:inline-block;  width: 100%; ">
+        <optgroup label="Notification Feedback">
+            <option value="11">Error</option>
+            <option value="12">Success</option>
+            <option value="13">Warning</option>
+        </optgroup>
+        <optgroup label="UI Feedback">
+            <option value="14">Light</option>
+            <option value="15">Medium</option>
+            <option value="16">Heavy</option>
+        </optgroup>
+    </select>
+
+    <br></br>
+
+    <button id="hapticFeedback-btn" onclick="" style="font-size:3vw; border: green 1px solid; width: 100%;" type="button">Generate Haptic Feedback</button>
+</div>
+
+<br></br>
+
+<p id="compassData-lbl" style="font-size:3vw;">Compass Data</p>
+
+<div class="head" style="bottom: 0px;">
+    <button id="startCompass-btn" onclick="" style="font-size:3vw; border: green 1px solid; width: 100%;"
+            type="button">Start Compass
+    </button>
+</div>
+<div class="head" style="bottom: 0px;">
+    <button id="stopCompass-btn" onclick="" style="font-size:3vw; border: green 1px solid; width: 100%;"
+            type="button">Stop Compass
+    </button>
+</div>
+
+<br></br>
+
+<p id="gyroscopeData-lbl" style="font-size:3vw;">Gyroscope Data</p>
+<div class="head" style="bottom: 0px;">
+    <button id="startGyroscope-btn" onclick="" style="font-size:3vw; border: green 1px solid; width: 100%;"
+            type="button">Start Gyroscope
+    </button>
+</div>
+<div class="head" style="bottom: 0px;">
+    <button id="stopGyroscope-btn" onclick="" style="font-size:3vw; border: green 1px solid; width: 100%;"
+            type="button">Stop Gyroscope
+    </button>
+</div>
+
+<br></br>
+
+<p id="accelerometerData-lbl" style="font-size:3vw;">Accelerometer Data</p>
+<div class="head" style="bottom: 0px;">
+    <button id="startAccelerometer-btn" onclick="" style="font-size:3vw; border: green 1px solid; width: 100%;"
+            type="button">Start Accelerometer
+    </button>
+</div>
+<div class="head" style="bottom: 0px;">
+    <button id="stopAccelerometer-btn" onclick="" style="font-size:3vw; border: green 1px solid; width: 100%;"
+            type="button">Stop Accelerometer
+    </button>
+</div>
+
+<br></br>
+
+<div class="head" style="bottom: 0px;">
+    <button id="qrCodeScanner-btn" onclick="" style="font-size:3vw; border: green 1px solid; width: 100%;"
+            type="button">Scan QR Code
+    </button>
+</div>
+
+<br></br>
+
+<div class="head" style="bottom: 0px;">
+    <button id="openDeepLink-btn" type="button" onclick=""
+            style="font-size:3vw; border: green 1px solid; width: 100%;">Open Deep Link</button>
+</div>
+
+<br></br>
+
+<script type="text/javascript">
+    //Action Requests
+    document.getElementById("userAuthCode-btn").onclick = function () {
+        mp.getUserAuthCode(["OPEN_ID", "USER_NAME", "USER_MSISDN"]);
+     // mp.fireMiniAppTrigger("{\"eventName\":\"Payment_Screen_Appeared\",\"extraParams\":\"jsonString of extra params for analytics\"}");
+
+    };
+    document.getElementById("createPayment-btn").onclick = function () {
+        mp.createPayment(document.getElementById("transactionIdField").value);
+    };
+    document.getElementById("userLocation-btn").onclick = function () {
+        mp.getLocation();
+    };
+    document.getElementById("microphone-btn").onclick = function () {
+        mp.getMicrophone();
+    };
+
+    document.getElementById("camera-btn").onclick = function () {
+        mp.getCamera();
+    };
+    document.getElementById("showLoader-btn").onclick = function () {
+        mp.showLoader("YES");
+    };
+    document.getElementById("hideLoader-btn").onclick = function () {
+        mp.showLoader("NO");
+    };
+    document.getElementById("actionSheet-btn").onclick = function () {
+        mp.getActionSheet("{\"title\":\"Action Sheet Title\",\"subTitle\":\"Action Sheet SubTitle\",\"cancelItem\":\"Cancel\",\"destructiveItem\":\"No\",\"otherItems\":[\"Yes\"]}");
+    };
+    document.getElementById("hapticFeedback-btn").onclick = function () {
+        mp.generateHapticFeedback(document.getElementById("hapticFeedbackOption").value);
+    };
+    document.getElementById("startCompass-btn").onclick = function () {
+        mp.startCompass("{\"status\":\"YES\",\"timeInterval\":1.0}");
+    };
+    document.getElementById("stopCompass-btn").onclick = function () {
+        mp.startCompass("{\"status\":\"NO\"}");
+    };
+    document.getElementById("startGyroscope-btn").onclick = function () {
+        mp.startGyroscope("{\"status\":\"YES\",\"timeInterval\":1.0}");
+    };
+    document.getElementById("stopGyroscope-btn").onclick = function () {
+        mp.startGyroscope("{\"status\":\"NO\"}");
+    };
+    document.getElementById("startAccelerometer-btn").onclick = function () {
+        mp.startAccelerometer("{\"status\":\"YES\",\"timeInterval\":1.0}");
+    };
+    document.getElementById("stopAccelerometer-btn").onclick = function () {
+        mp.startAccelerometer("{\"status\":\"NO\"}");
+    };
+    document.getElementById("photoLibrary-btn").onclick = function () {
+        mp.getPhotoLibrary();
+    };
+    document.getElementById("qrCodeScanner-btn").onclick = function () {
+        mp.getQRCodeScanner();
+    };
+    document.getElementById("openDeepLink-btn").onclick = function () {
+        mp.openDeepLink("{\"deepLinkType\":\"external\",\"url\":\"https://google.com\"}")
+    };
+
+    //Action Responses
+    function getUserAuthCodeResult(jsonResult) {
+        alert('getUserAuthCodeResult JSON: ' + jsonResult);
+    }
+    function createPaymentResult(jsonResult) {
+        alert('createPaymentResult JSON: ' + jsonResult);
+    }
+    function getLocationResult(jsonResult) {
+        alert('getLocationResult JSON: ' + jsonResult);
+    }
+    function getMicrophoneResult(jsonResult) {
+        alert('getMicrophoneResult JSON: ' + jsonResult);
+    }
+
+    function getCameraResult(jsonResult) {
+        alert('getCameraResult JSON: ' + jsonResult);
+    }
+    function getActionSheetResult(jsonResult) {
+        alert('getActionSheetResult JSON: ' + jsonResult);
+    }
+    function getCompassResult(jsonResult) {
+        document.getElementById("compassData-lbl").innerHTML = jsonResult
+    }
+    function getGyroscopeResult(jsonResult) {
+        document.getElementById("gyroscopeData-lbl").innerHTML = jsonResult
+    }
+    function getAccelerometerResult(jsonResult) {
+        document.getElementById("accelerometerData-lbl").innerHTML = jsonResult
+    }
+    function getPhotoLibraryResult(jsonResult) {
+        alert('getPhotoLibraryResult JSON: ' + jsonResult);
+    }
+    function getQRCodeScannerResult(stringResult) {
+        alert('getQRCodeScannerResult JSON: ' + stringResult);
+    }
+
+    // for mic and camera permission request
+    function getLocalStream() {
+        navigator.mediaDevices
+        .getUserMedia({ video: true, audio: true })
+        .then((stream) => {
+        window.localStream = stream; // A
+        window.localAudio.srcObject = stream; // B
+        window.localAudio.autoplay = true; // C
+       })
+       .catch((err) => {
+        console.error(`you got an error: ${err}`);
+      });
+}
+    getLocalStream();
+
+     function getOpenDeepLinkResult(stringResult) {
+          alert('getOpenDeepLinkResult JSON: ' + stringResult);
+     }
+</script>
+</body>
+</html>

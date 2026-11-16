@@ -1,0 +1,100 @@
+SHADOWHOOK — INLINE METHOD INTERCEPTION ENGINE
+============================================================
+
+  %s: shadowhook init(default_mode: %s, debuggable: %s), return: %d, real-init: %s
+  .got.plt
+  .rela.plt
+  Duplicate multi hook
+  Duplicate shared hook
+  a64: %shook (with island) OK. target %lx -> island-exit %lx -> new %lx -> enter %lx -> island-enter %lx -> resume %lx
+  a64: %shook (with island) OK. target %lx -> island-exit %lx -> new %lx -> enter %lx -> resume %lx
+  a64: unhook OK. target %lx
+  com/bytedance/shadowhook/ShadowHook
+  hook_func_addr
+  hook_instr_addr
+  hook_sym_addr
+  hook_sym_name
+  libshadowhook.so
+  libshadowhook_nothing.so
+  linker: hook ctors and dtors %s
+  linker: hook soinfo::call_constructors
+  linker: hook soinfo::call_destructors
+  shadowhook set disable = %s
+  shadowhook version 2.0.0
+  shadowhook-enter
+  shadowhook-hub-stack
+  shadowhook-hub-trampo
+  shadowhook-interceptor-glue-launcher
+  shadowhook-island
+  shadowhook: %s(%p, %p, %p) FAILED. %d - %s
+  shadowhook: %s(%p, %p, %p) OK. return: %p
+  shadowhook: %s(%p, %p, %u) FAILED. %d - %s
+  shadowhook: %s(%p, %p, %u) OK. return: %p
+  shadowhook: %s(%s, %s, %p, %p, %p %u) ...
+  shadowhook: %s(%s, %s, %p, %p, %u) ...
+  shadowhook: dlopen crashed - %s
+  shadowhook: dlsym_dynsym crashed - %p, %s
+  shadowhook: dlsym_symtab crashed - %p, %s
+  shadowhook: hook_sym_name(%s, %s, %p, %u) ...
+  shadowhook: hook_sym_name(%s, %s, %p, %u) FAILED. %d - %s
+  shadowhook: hook_sym_name(%s, %s, %p, %u) OK. return: %p. %d - %s
+  shadowhook: intercept_sym_name(%s, %s, %p, %p %u) ...
+  shadowhook: intercept_sym_name(%s, %s, %p, %p) FAILED. %d - %s
+  shadowhook: intercept_sym_name(%s, %s, %p, %p) OK. return: %p. %d - %s
+  shadowhook: unhook(%p) ...
+  shadowhook: unhook(%p) FAILED. %d - %s
+  shadowhook: unhook(%p) OK
+  shadowhook: unintercept(%p) ...
+  shadowhook: unintercept(%p) FAILED. %d - %s
+  shadowhook: unintercept(%p) OK
+  shadowhook_allow_reentrant
+  shadowhook_disallow_reentrant
+  shadowhook_dlclose
+  shadowhook_dlopen
+  shadowhook_dlsym
+  shadowhook_dlsym_dynsym
+  shadowhook_dlsym_symtab
+  shadowhook_dump_records
+  shadowhook_get_debuggable
+  shadowhook_get_disable
+  shadowhook_get_errno
+  shadowhook_get_mode
+  shadowhook_get_prev_func
+  shadowhook_get_recordable
+  shadowhook_get_records
+  shadowhook_get_return_address
+  shadowhook_get_version
+  shadowhook_hook_func_addr
+  shadowhook_hook_func_addr_2
+  shadowhook_hook_sym_addr
+  shadowhook_hook_sym_addr_2
+  shadowhook_hook_sym_name
+  shadowhook_hook_sym_name_2
+  shadowhook_hook_sym_name_callback
+  shadowhook_hook_sym_name_callback_2
+  shadowhook_init
+  shadowhook_intercept_func_addr
+  shadowhook_intercept_instr_addr
+  shadowhook_intercept_sym_addr
+  shadowhook_intercept_sym_name
+  shadowhook_intercept_sym_name_callback
+  shadowhook_interceptor_caller
+  shadowhook_interceptor_glue
+  shadowhook_pop_stack
+  shadowhook_proxy_android_linker_soinfo_call_constructors
+  shadowhook_proxy_android_linker_soinfo_call_destructors
+  shadowhook_register_dl_fini_callback
+  shadowhook_register_dl_init_callback
+  shadowhook_set_debuggable
+  shadowhook_set_disable
+  shadowhook_set_recordable
+  shadowhook_tag
+  shadowhook_to_errmsg
+  shadowhook_unhook
+  shadowhook_unintercept
+  shadowhook_unregister_dl_fini_callback
+  shadowhook_unregister_dl_init_callback
+  switch: hook in %s mode OK: target_addr %lx, new_addr %lx
+  switch: hook invisible OK: target_addr %lx, new_addr %lx
+  switch: unhook in %s mode OK: target_addr %lx, new_addr %lx
+  unhook
